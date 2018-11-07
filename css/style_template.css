@@ -1,201 +1,224 @@
 header {
-	text-align: center;
-	background-color: #194277;
+    background-color: #194277;
+    text-align: center;
 }
+
 .sizer {
-	width: 1180px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	clear: both;
+    width: 1180px;
+    clear: both;
+    owerflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
+
 header span {
-	display: inline-block;
-	margin-bottom: 28px;
-	margin-top: 32px;
-	margin-right: 51px;
-	color: #ffffff;
-	font-family: 'Lato',sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 36px;
-	text-align: center;
+    display: inline-block;
+    margin-bottom: 28px;
+    margin-top: 32px;
+    margin-right: 51px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
 }
+
 form {
-	display: inline;
+    display: inline;
 }
 
 .cookie {
-	margin-bottom: 28px;
-	margin-top: 32px;
-	margin-right: 51px;
-	width: 120px;
-	height: 30px;
-	border-radius: 15px;
-	background-color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 16.36px;
-	border:none;
-	letter-spacing: 0.55px;
-	text-transform: none;
-	text-align: center;
-	color: #194277;
-}
-.first_part{
-	background-color: #3695ff;
-}
-.Menu{
-	float: right;
-	margin-top: 35px;
-}
-.Profile{
-	margin-top: 70px;
-	margin-bottom: 50px;
-}
-figure{
-	text-align: center;
-}
-.description{
-	text-align: center;
-}
-h1{
-	padding-left: 150px;
-	padding-right: 150px;
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-	font-weight: 900;
-	line-height: 60px;
-	text-transform: uppercase;
-	letter-spacing: 1.25px;
-	text-align: center;
-}
-.Lorem{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 42px;
-	color: #ffffff;
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 35px;
-	text-transform: uppercase;
-	/* Text style for "L, orem ip" */
-	letter-spacing: 0.4px;
-}
-.hire_me{
-
-	margin-top: 96px;
-	margin-bottom: 96px;
-	text-align: center;
-	width: 204px;
-	height: 55px;
-	border-radius: 28px;
-	border: none;
-	background-color: #ffffff;
-	color: #3695ff;
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 30px;
-	text-transform: uppercase;
-	/* Text style for "h, ire me" */
-	letter-spacing: 0.4px;
-}
-.arrow{
-	margin-bottom: 20px;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 28px;
+    margin-top: 32px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    color: #194277;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.36px;
+    letter-spacing: 0.55px;
+    text-transform: none;
+    text-align: center;
 }
 
-.second_part h2{
-
-	margin-bottom:35px ;
-}
-.second_part p{
-	margin-bottom: 100px;
-	color: #5a5a5a;
-	font-family: 'Lato';
-	text-align: center;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 35px;
-}
-.expert{
-	background-color: #f1f8ff;
-}
-h2{
-	padding-bottom: 70px;
-	padding-top: 70px;
-	color: #3677fd;
-	font-family: 'Lato',sans-serif;
-	font-size: 50px;
-	font-weight: 300;
-	line-height: 35.12px;
-	text-align: center;
-}
-.Skills_and_works{
-	display: inline-block;
-	text-align: center;
-	width: 360px;
-	height: 300px;
-	color: #5a5a5a;
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 35px;
-	margin-left: 15px;
-	margin-right: 15px;
-
-}
-.block_h{
-	color: #3677fd;
-	font-family: 'Lato',sans-serif;
-	font-size: 24px;
-	line-height: 24px;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
-}
-.latest_works{
-	margin-bottom: 100px;
+.first_part {
+    background-color: #367cfe;
+    background-image: url("../img//back_1.png");
+    background-repeat: no-repeat;
 }
 
-.clients{
-	height: 363px;
-	background-color: #f1f8ff;
+.Menu {
+    float: right;
+    margin-top: 35px;
 }
 
-
-footer{
-	height: 270px;
-	background-color: #3695ff;
-	background-image: linear-gradient(51deg, #3695ff , #3564fc );
-
-	/*background-image: linear-gradient( rgb(54, 149, 255) , rgb(53, 100, 252)ы);*/
-}
-footer span{
-	display: inline-block;
-	font-family: Lato,sans-serif;
-	font-size: 50px;
-	margin-top: 96px;
-	font-weight: 300;
-	line-height: 65px;
-	/* Text style for "Need a gra" */
-	color: #ffffff;
-
-}
-.bolder{
-	font-weight: normal;
-	display: inline-block;
-	margin-right: 64px;
-}
-.sizer{
-	width: 1180px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	clear: both;
+.Profile {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
+figure {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+h1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 900; /*To replace avocode Lato-Black */
+    line-height: 60px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Lorem {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+}
+
+.hire_me {
+
+    width: 204px;
+    height: 55px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    border: none;
+    color: #3695ff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.arrow {
+    margin-bottom: 20px;
+}
+
+.second_part h2 {
+    margin-bottom: 35px;
+}
+
+.second_part p {
+    margin-bottom: 100px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.expert {
+    background-color: #f1f8ff;
+}
+
+h2 {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    color: #3677fd;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    text-align: center;
+}
+
+.Skills_and_works {
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.block_h {
+    display: block;
+    color: #3677fd;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.latest_works {
+    margin-bottom: 100px;
+}
+
+.clients {
+    height: 363px;
+    background-color: #f1f8ff;
+}
+
+.companies li {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+    vertical-align: middle;
+    filter: contrast(1%) brightness(150%);
+}
+
+li :hover {
+    filter: contrast(100%) brightness(100%); /*it doesn`t work :( */
+}
+
+footer {
+    height: 270px;
+    background-color: #3564fc;
+    background-image: url("../img//back_2.png");
+    background-repeat: no-repeat;
+}
+
+footer span {
+    margin-top: 96px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+    color: #ffffff;
+
+}
+
+.bolder {
+    display: inline-block;
+    margin-right: 64px;
+    font-weight: normal;
+}
 
