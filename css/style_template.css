@@ -195,8 +195,9 @@ h2 {
 	filter: contrast(1%) brightness(150%);
 }
 
-li :hover {
-	filter: contrast(100%) brightness(100%); /*it doesn`t work :( */
+li img :hover {
+	transition: 3s;
+	filter: contrast(100%) ;/*it doesn`t work :( */
 }
 
 footer {
