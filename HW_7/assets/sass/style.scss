@@ -1,0 +1,500 @@
+@import "variables";
+
+a {
+  text-decoration: none;
+
+  &:active, &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.desktop_nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:active, &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .nw_btn {
+    @include common_btn;
+  }
+  .links {
+    align-items: stretch;
+    li {
+      display: flex;
+      align-items: center;
+      border-top: 1px solid $secondary;
+      margin: 0 0px;
+      font: $button-font;
+      height: 100px;
+      background-color: $nav-color;
+      a {
+        min-height: 50px;
+        color: $primary;
+        padding-top: 15px;
+        padding-left: 30px;
+        &:active {
+          border-left: 2px solid $accent;
+        }
+        &:hover {
+          color: $accent;
+          border-left: 2px solid $accent;
+        }
+      }
+    }
+  }
+}
+
+li.soc.nav-item.hide_item {
+  display: flex;
+  padding: 0;
+  border-top: none;
+  a {
+    padding: 0 30px;
+  }
+  a:hover, focus, active {
+    color: $accent;
+    border-left: none;
+  }
+}
+
+nav.nb.navbar.navbar-light.light-blue.lighten-4 {
+  padding: 0;
+}
+
+.fork_app {
+  height: 760px;
+  background: url(../img/bg1.png) no-repeat center;
+  background-size: cover;
+  h1 {
+    padding-top: 80px;
+    color: $primary;
+    text-align: center;
+    font: 700 82px 'Montserrat', sans-serif;
+  }
+  h4 {
+    text-align: center;
+    font: 400 24px/34px 'Montserrat', sans-serif;
+    color: $accent;
+  }
+  p {
+    text-align: center;
+    font: $button-font;
+  }
+}
+
+.txt_btn {
+  .rel_btn {
+    @include common_btn;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 30px;
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-transform: capitalize;
+  }
+  p {
+    text-align: center;
+    font: $small-font;
+    color: $small-font-color;
+  }
+}
+
+.revolutionary {
+  text-align: center;
+  margin-bottom: 50px;
+  h2 {
+    text-transform: uppercase;
+    font: 700 35px 'Montserrat', sans-serif;
+    color: $secondary;
+  }
+  p {
+    font: $insert-font;
+    color: $inserts;
+    padding-bottom: 40px;
+  }
+}
+
+.you_get {
+  background-color: $backgroung-primary;
+  h2 {
+    padding: 50px 0;
+    color: $accent;
+    font: 700 48px/54px 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .for_m {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .mrg {
+    margin: 10px;
+    flex-flow: row;
+    h5 {
+      font: $button-font;
+      color: $inserts;
+    }
+  }
+}
+
+.carousel_social {
+  img.col-md-.col-lg- {
+    margin: 10px;
+  }
+  .row {
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+  }
+  .name {
+    display: flex;
+    color: $carousel-col;
+    font: 700 24px/32px 'Montserrat', sans-serif;
+  }
+  .username {
+    color: $news-second;
+    font: 700 16px/32px 'Montserrat', sans-serif;
+  }
+  .small {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+    color: $small-font-color;
+    font: 400 16px/32px 'Montserrat', sans-serif;
+  }
+  .carousel-item a {
+    width: 280px;
+    display: flex;
+    margin: 0 auto;
+    &:hover, &:active, &:focus {
+      transition: 0.2s;
+      opacity: 0.5;
+    }
+  }
+  a.btn.btn-block.btn-social.btn-github {
+    color: $inserts;
+    background-color: #f3f3f3;
+  }
+  a.btn.btn-block.btn-social.btn-twitter {
+    color: $primary;
+    background-color: #26a6d1;
+  }
+  a.btn.btn-block.btn-social.btn-facebook {
+    color: $primary;
+    background-color: #3b5998;
+  }
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+}
+
+.talk {
+  background: url("../img/bg2.png") 100%;
+  background-size: cover;
+  .row {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+  }
+  h2 {
+    color: $primary;
+    font: $big-font;
+    padding: 50px 10px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  p {
+    color: $primary;
+    font: $insert-font;
+    font-style: italic;
+    padding: 35px 0;
+  }
+  .ppl {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+  }
+}
+
+.buy {
+  background: url(../img/price_bg.png) no-repeat center,
+  #4b3b4e;
+  background-size: cover;
+  .line {
+    @include line($accent)
+  }
+  h2 {
+    padding: 40px 10px;
+    color: $primary;
+    font: $big-font;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .tarifs {
+    margin: 20px 0;
+    &:hover .desc {
+      height: 420px;
+      background-color: rgba(0, 0, 0, 0.11);
+    }
+    &:hover .call {
+      padding: 60px 0;
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    span, button {
+      display: block;
+      text-align: center;
+    }
+    .desc {
+      width: 100%;
+      height: 360px;
+      display: inline-flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgba(83%, 83%, 83%, 0.11);
+    }
+    .call {
+      padding: 50px 0;
+      font: $tarifs-font;
+      text-transform: uppercase;
+      color: $primary;
+      background-color: rgba(83%, 83%, 83%, 0.06);
+    }
+    .price {
+      text-transform: uppercase;
+      font: $price-font;
+      font-weight: bold;
+      color: $primary;
+    }
+    .term {
+      font: $term-font;
+      text-transform: uppercase;
+      color: #d4d4d4;
+      opacity: 0.3;
+
+    }
+    .features {
+      padding: 4px;
+      font: $button-font;
+      color: $primary;
+      font-weight: 400;
+    }
+    .buy_btn {
+      @include common_btn;
+      width: 160px;
+      height: 42px;
+      text-transform: uppercase;
+      font-weight: 400;
+      background-color: rgba(83%, 83%, 83%, 0.15);
+    }
+  }
+  .end_tarif {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0.8;
+    font: $term-font;
+    color: #b5acb5;
+    line-height: 21px;
+  }
+  .pos {
+    align-items: center;
+    margin: 30px 0;
+  }
+}
+
+.form_section {
+  .row {
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  ul {
+    margin-left: -40px;
+  }
+  background-color: $backgroung-primary;
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: $inserts;
+    font:700 30px 'Montserrat',sans-serif;
+  }
+  input {
+    width: 100%;
+    height: 42px;
+    padding: 10px;
+    background-color: $primary;
+    border-radius: 20px;
+    border: none;
+  }
+  button {
+    @include common_btn;
+    width: 100%;
+    height: 42px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.news {
+  .another_color {
+    @include news_h4_header($inserts);
+  }
+  h3 {
+    @include news_h3_header;
+  }
+  h4 {
+    @include news_h4_header($news-second)
+  }
+  p {
+    @include news_content;
+  }
+  button {
+    @include news_button;
+  }
+}
+
+.information {
+  nav {
+    padding: 10px 0;
+  }
+  .row {
+    div {
+      margin: 10px 0;
+    }
+  }
+
+  ul {
+    margin-left: -40px;
+
+  }
+  span, p {
+    display: block;
+    @include news_content;
+  }
+  a {
+    color: $news-second;
+    font: $insert-font;
+    &:hover {
+      transition: 0.2s;
+      color: $inserts;
+    }
+  }
+  h4 {
+    @include news_h4_header($inserts);
+    padding: 10px 0;
+  }
+  .tel {
+    color: #31384d;
+    font: 700 30px/28px 'Montserrat', sans-serif;
+  }
+}
+
+.code_segment {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 1024px) {
+  .nb {
+    display: none;
+  }
+  .desktop_nav {
+    width: 100%;
+    display: flex;
+  }
+  .wrap {
+    width: 1170px;
+    display: block;
+    margin: 0px auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    button {
+      @include common_btn;
+    }
+    .links_d {
+      align-items: end;
+      li {
+        display: inline-flex;
+        margin: 0 15px;
+        font: $button-font;
+        a {
+          color: $secondary;
+          &:hover {
+            color: $accent;
+          }
+        }
+      }
+    }
+  }
+  .fork_app {
+    h1 {
+      font-size: 82px;
+    }
+    h4 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .txt_btn .rel_btn {
+    width: 394px;
+  }
+  .revolutionary {
+    h2 {
+      font-size: 54px;
+    }
+    p {
+      font-size: 21px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .big_cont {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .fork_app {
+    height: 800px;
+    background: url(../img/bg1_2.png) no-repeat center;
+    background-size: cover;
+    h4 {
+      padding-bottom: 20px;
+    }
+  }
+}
+
